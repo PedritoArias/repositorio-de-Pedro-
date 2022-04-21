@@ -1,0 +1,39 @@
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+
+class Socio {
+	private: //Atributos
+		long int DNI,telefono;
+		string nombre,fechaNac,localidad,email,grupo,factor,enfermedad,medicamento,categ;
+	public: //metodos
+		Socio(long int,string,string,string,long int,string,string,string,string,string,string);//constructor
+		void registrar();
+
+};
+//constructor, sirve para inicializar los atributos
+Socio::Socio(long int _DNI,string _nombre,string _fechaNac,string _localidad,long int _telefono,string _email,string _grupo,string _factor,string _enfermedad,string _medicamento,string _categ) {
+	DNI = _DNI;
+	nombre = _nombre;
+	fechaNac = _fechaNac;
+	localidad = _localidad;
+	telefono = _telefono;
+	email = _email;
+	grupo = _grupo;
+	factor = _factor;
+	enfermedad = _enfermedad;
+	medicamento = _medicamento;
+	categ = _categ;
+}
+
+void Socio::registrar() {
+	cout<<"soy "<<nombre<<", mi fecha de nacimiento es "<<fechaNac<<" listo"<<endl;
+}
+
+int main() {
+	Socio s1(42786504,"Pedro Arias","4-7-2000","Devoto",3564584579,"pedrito2000arias@gmail.com","0+","+","no","no","activo");
+
+	s1.registrar();
+	system("pause");
+	return 0;
+}
