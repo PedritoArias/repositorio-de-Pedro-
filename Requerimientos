@@ -1,0 +1,10 @@
+Requerimientos:
+- El sistema debe permitir registrar un nuevo socio
+- El sistema debe asignar una categoria e informarle al socio
+- el sistema debe permitir que la persona acepte o rechace esta inscripción
+- El sistema debe actualizar las categorias automaticamente
+- el sistema debe permitir Calcular liquidacion de cuotas
+- el sistema debe permitir Informar de la cantidad de sangre que se necesita en una donación
+- el sistema debe permitir generar informe semanal
+- el sistema debe permitir Control mensual de cobranzas
+- el sistema debe permitir generar listado de cuotas pagas del mes
